@@ -6,82 +6,26 @@
         "featured_collection_hmqc3k": {
           "type": "featured_collection",
           "settings": {
-            "collection": "すべての商品"
+            "collection": "コレクション-1"
           }
         },
-        "featured_collection_jBTct4": {
+        "featured_collection_Fzj63b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "牛肉"
+            "collection": "コレクション-2"
           }
         },
-        "featured_collection_XpD3kW": {
+        "featured_collection_adrTYe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "豚肉-ポーク"
-          }
-        },
-        "featured_collection_JEHqae": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "鶏肉-チキン"
-          }
-        },
-        "featured_collection_Lz7McM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "羊肉-ラム-マトン"
-          }
-        },
-        "featured_collection_WNzzyx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "羊肉-ラム-マトン"
-          }
-        },
-        "featured_collection_LPXBTz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ギフト"
-          }
-        },
-        "featured_collection_ipiUff": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "new-collection"
-          }
-        },
-        "featured_collection_kUxXfb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "best-selling-collection"
-          }
-        },
-        "featured_collection_a8LtPd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "お買い得商品"
-          }
-        },
-        "featured_collection_Xcpwnq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "会員専用ページ"
+            "collection": "コレクション-3"
           }
         }
       },
       "block_order": [
         "featured_collection_hmqc3k",
-        "featured_collection_jBTct4",
-        "featured_collection_XpD3kW",
-        "featured_collection_JEHqae",
-        "featured_collection_Lz7McM",
-        "featured_collection_WNzzyx",
-        "featured_collection_LPXBTz",
-        "featured_collection_ipiUff",
-        "featured_collection_kUxXfb",
-        "featured_collection_a8LtPd",
-        "featured_collection_Xcpwnq"
+        "featured_collection_Fzj63b",
+        "featured_collection_adrTYe"
       ],
       "settings": {
         "title": "カテゴリから選ぶ",

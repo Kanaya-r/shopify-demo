@@ -1,0 +1,8 @@
+<h1>このページは会員専用のページです</h1>
+
+<p>
+  {% unless customer %}
+    <a href="/account/login">ログインする</a> |
+  {% endunless %}
+    <a href="/pages/contact">お問合せください</a>
+</p>

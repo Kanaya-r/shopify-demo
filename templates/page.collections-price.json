@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_PPbgrp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3-000"
+          }
+        },
+        "featured_collection_k3EnAX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3-001-5-000"
+          }
+        },
+        "featured_collection_AEPmkU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "5-001-8-000"
+          }
+        },
+        "featured_collection_bPVFzU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "8-001-10-000"
+          }
+        },
+        "featured_collection_qPfj9C": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "10-001"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_PPbgrp",
+        "featured_collection_k3EnAX",
+        "featured_collection_AEPmkU",
+        "featured_collection_bPVFzU",
+        "featured_collection_qPfj9C"
+      ],
+      "settings": {
+        "title": "価格帯から選ぶ",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

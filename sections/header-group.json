@@ -1,0 +1,88 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "d6c0993c-cbfb-4bef-9ebc-eb11a229d731": {
+          "type": "announcement",
+          "settings": {
+            "text": "先取りセール開始！",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "1b50c943-8082-4afa-a9b7-f70e7d849f6f": {
+          "type": "announcement",
+          "settings": {
+            "text": "Instagramで情報発信中♪",
+            "link": "https:\/\/www.instagram.com\/?hl=ja"
+          }
+        }
+      },
+      "block_order": [
+        "d6c0993c-cbfb-4bef-9ebc-eb11a229d731",
+        "1b50c943-8082-4afa-a9b7-f70e7d849f6f"
+      ],
+      "settings": {
+        "color_scheme": "scheme-7a7c8bdd-b33e-4a73-af94-bd7a56116e71",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_with_link_NnTpPQ": {
+          "type": "image_with_link",
+          "settings": {
+            "title": "すべての<br>商品",
+            "url": "shopify:\/\/collections\/best-selling-collection"
+          }
+        },
+        "image_with_link_AmVDTJ": {
+          "type": "image_with_link",
+          "settings": {
+            "title": "カテゴリー",
+            "url": "shopify:\/\/pages\/カテゴリ一覧"
+          }
+        },
+        "image_with_link_mG93mP": {
+          "type": "image_with_link",
+          "settings": {
+            "title": "価格<br>で選ぶ",
+            "url": "shopify:\/\/pages\/price-list"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_link_NnTpPQ",
+        "image_with_link_AmVDTJ",
+        "image_with_link_mG93mP"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "glob-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,24 @@
+/* メインメニュー */
+@media (hover:hover) {
+  .gm-menu .gm-item .gm-target,
+  .gm-menu .gm-submenu .gm-item .gm-target {
+    transition: opacity 0.3s;
+  }
+  .gm-menu .gm-item .gm-target:hover,
+  .gm-menu .gm-submenu .gm-item .gm-target:hover {
+    opacity: 0.7;
+  }
+}
+
+/* サブメニュー */
+.gm-menu .gm-submenu {
+  box-shadow: 0px 2px 8px #00000022;
+}
+.gm-menu .gm-submenu .gm-item .gm-icon-img {
+  min-width: auto!important;
+  width: 40px!important;
+  height: 40px!important;
+}
+.gm-menu .gm-submenu .gm-item .gm-icon-img img {
+  object-fit: cover!important;
+}

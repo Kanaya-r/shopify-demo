@@ -1,0 +1,65 @@
+<div
+  class="p-business__img page-width"
+  style="text-align: {{ section.settings.image_alignment }};"
+  {% if settings.animations_reveal_on_scroll %}
+    data-cascade
+    style="--animation-order: {{ forloop.index }}; text-align: {{ section.settings.image_alignment }};"
+  {% endif %}
+>
+  <img src="{{ section.settings.image | img_url: 'original' }}" alt="" style="max-width: {{ section.settings.image_width }}px;">
+</div>
+
+
+{% schema %}
+{
+  "name": "ビジネス会員 - 画像",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"],
+    "groups": ["aside"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "画像"
+    },
+    {
+      "type": "select",
+      "id": "image_alignment",
+      "label": "画像の配置",
+      "options": [
+        {
+          "value": "left",
+          "label": "左寄せ"
+        },
+        {
+          "value": "center",
+          "label": "中央寄せ"
+        },
+        {
+          "value": "right",
+          "label": "右寄せ"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "label": "画像の最大横幅（px）",
+      "min": 100,
+      "max": 1000,
+      "step": 10,
+      "default": 520,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ビジネス会員 - 画像"
+    }
+  ]
+}
+{% endschema %}

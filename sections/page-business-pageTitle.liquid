@@ -1,0 +1,21 @@
+{{ 'page-business.css' | asset_url | stylesheet_tag }}
+{{ 'p-business-script.js' | asset_url | script_tag }}
+
+<h1 class="p-business__hero page-width">
+  {{ section.settings.pageTitle }}
+</h1>
+
+{% schema %}
+{
+  "name": "ページタイトル",
+  "tag": "section",
+  "class": "pageTitle",
+  "settings": [
+    {
+      "id": "pageTitle",
+      "type": "text",
+      "label": "ページタイトル"
+    },
+  ]
+}
+{% endschema %}

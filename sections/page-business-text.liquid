@@ -1,0 +1,35 @@
+<div
+  class="p-business__txt page-width"
+  {% if settings.animations_reveal_on_scroll %}
+    data-cascade
+    style="--animation-order: {{ forloop.index }};"
+  {% endif %}
+>
+  {{ section.settings.text }}
+</div>
+
+
+{% schema %}
+{
+  "name": "ビジネス会員 - テキスト",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"],
+    "groups": ["aside"]
+  },
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>本文が入ります。</p>",
+      "label": "テキスト"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ビジネス会員 - テキスト"
+    }
+  ]
+}
+{% endschema %}

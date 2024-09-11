@@ -1,0 +1,68 @@
+<div class="p-business__bg-gray">
+  <div class="p-business__userguide page-width">
+    <h2>{{ section.settings.title }}</h2>
+    <ul>
+      {% for block in section.blocks %}
+        <li>
+          <p class="list-title">
+            <a href="{{ block.settings.url }}" {% if block.settings.open_in_new_tab %}target="_blank"{% endif %}>
+              {{ block.settings.link_text }}
+            </a>
+          </p>
+          <p class="list-detail">{{ block.settings.detail_text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ビジネス会員 - ユーザーガイド",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "セクションタイトル",
+      "default": "タイトル"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "list",
+      "name": "項目",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "リンク先URL"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "リンクテキスト",
+          "default": "リンクテキスト"
+        },
+        {
+          "type": "textarea",
+          "id": "detail_text",
+          "label": "詳細テキスト",
+          "default": "詳細テキスト"
+        },
+        {
+          "type": "checkbox",
+          "id": "open_in_new_tab",
+          "label": "新しいタブでリンクを開く",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ビジネス会員 - ユーザーガイド",
+      "category": "カスタムセクション"
+    }
+  ]
+}
+{% endschema %}

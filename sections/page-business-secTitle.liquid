@@ -1,0 +1,35 @@
+<h2
+  class="p-business__ttl page-width"
+  {% if settings.animations_reveal_on_scroll %}
+    data-cascade
+    style="--animation-order: {{ forloop.index }};"
+  {% endif %}
+>
+  {{ section.settings.sec-title }}
+</h2>
+
+
+{% schema %}
+{
+  "name": "ビジネス会員 - 見出し",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"],
+    "groups": ["aside"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "sec-title",
+      "default": "見出しが入ります。",
+      "label": "見出し"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ビジネス会員 - 見出し"
+    }
+  ]
+}
+{% endschema %}

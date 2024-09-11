@@ -6,93 +6,37 @@
 
       ],
       "settings": {
-        "pageTitle": "ビジネス会員"
+        "pageTitle": "ページタイトル"
       }
     },
     "page_business_sec_title_hfderj": {
       "type": "page-business-secTitle",
       "settings": {
-        "sec-title": "ビジネス会員とは"
+        "sec-title": "セクションタイトル1"
       }
     },
     "page_business_text_G9ReGF": {
       "type": "page-business-text",
       "settings": {
-        "text": "<p>・法人、個人事業主のお客様限定で、特別価格にて商品を購入できるサービスです。<\/p><p>・企業様専用の購入ページを作成しますので、アイテムや価格帯は、企業様に沿った内容でご提供可能です。<\/p><p>・ビジネス会員には、初期費用や年会費は一切掛かりません。<\/p>"
+        "text": "<p>・テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<\/p><p>・テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<\/p><p>・テキストが入ります。テキストが入ります。テキストが入ります。<\/p><ol><li>テキストが入ります。<\/li><li>テキストが入ります。<\/li><li>テキストが入ります。<\/li><\/ol>"
       }
     },
     "page_business_sec_title_rKPxBp": {
       "type": "page-business-secTitle",
       "settings": {
-        "sec-title": "「申請」について"
+        "sec-title": "セクションタイトル2"
       }
     },
     "page_business_text_cBUBEe": {
       "type": "page-business-text",
       "settings": {
-        "text": "<p>・以下の手順に沿って申請をお願いします。<\/p><h3>▶<a href=\"https:\/\/forms.office.com\/r\/VS9kGShcYp\" target=\"_blank\" title=\"ビジネス会員申請フォーム\"><strong>ビジネス会員 申請フォームはこちら<\/strong><\/a><\/h3><p><\/p>"
+        "text": "<p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<\/p><p><em>テキストが入ります。<\/em><\/p><p><a href=\"\/pages\/business\" title=\"ビジネス会員はこちら\">テキストが入ります。テキストが入ります。<\/a><\/p>"
       }
     },
     "page_business_image_GV6ghx": {
       "type": "page-business-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/c48af13e37255ca3bc4aee10a295701f.jpg",
-        "image_alignment": "left",
-        "image_width": 1000
-      }
-    },
-    "page_business_sec_title_yGetX8": {
-      "type": "page-business-secTitle",
-      "settings": {
-        "sec-title": "「商品」について"
-      }
-    },
-    "page_business_text_QF4KeA": {
-      "type": "page-business-text",
-      "settings": {
-        "text": "<p>・牛肉、豚肉、鶏肉、羊肉、加工品、ギフト、様々な商品がご提供可能です。<\/p><p>・商品は基本的に業務用の規格品で、主に原木(肉塊)となります。<\/p><p>・加工度の高い商品(スライス・味付け加工など)も、基本的に規格品でのご案内となります。<\/p><p>・お客様ご指定の規格品をご希望される場合は、一度お問合せフォームよりご相談をお願いします。<\/p><p>・商品や配送条件によっては、都度在庫確認が必要な商品や、発注ロットが発生する場合があります。<\/p>"
-      }
-    },
-    "page_business_sec_title_EwCDW3": {
-      "type": "page-business-secTitle",
-      "settings": {
-        "sec-title": "「商品価格」について"
-      }
-    },
-    "page_business_text_iegJnW": {
-      "type": "page-business-text",
-      "settings": {
-        "text": "<p><\/p><p>・商品価格は法人様毎に設定し、毎月御見積を提示させていただきます。<\/p><p>・相場変動やその他外部要因によって価格調整させて頂く場合があり、大幅な価格変更となる場合は、1か月前を目途にご連絡させていただきます。<br\/>　※価格変更のご連絡期限や、御見積期間のご要望（年間固定価格など）がございましたら、事前にご連絡願います。<br\/><\/p>"
-      }
-    },
-    "page_business_sec_title_hY8pa6": {
-      "type": "page-business-secTitle",
-      "settings": {
-        "sec-title": "「配送」について"
-      }
-    },
-    "page_business_text_JMjpKt": {
-      "type": "page-business-text",
-      "settings": {
-        "text": "<p>・配送先や1回の配送量、着日・時間指定の有無 などの条件を事前に聞き取りし、適切な配送方法を選択します。<\/p><p>・配送便は基本的には「宅急便・宅配便」を想定しております。<\/p><p>・条件によっては、専用の配達便を手配できる可能性もあります。<\/p><p>・配送料金は商品価格に含め、御見積提示させていただきます。<\/p>"
-      }
-    },
-    "page_business_sec_title_nnnHem": {
-      "type": "page-business-secTitle",
-      "settings": {
-        "sec-title": "「決済」について"
-      }
-    },
-    "page_business_text_FrgWKP": {
-      "type": "page-business-text",
-      "settings": {
-        "text": "<p>・決済は以下の方法からお選びください。<\/p><p>・領収書はアカウントページ、または注文確認メールより出力可能です。（お客様ご自身で発行をお願いします）<\/p>"
-      }
-    },
-    "page_business_image_tX4gFF": {
-      "type": "page-business-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/88bb7c19e9e44386a6c126578165c79a.jpg",
+        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
         "image_alignment": "left",
         "image_width": 1000
       }
@@ -133,21 +77,8 @@
         "list_BiGBqJ",
         "list_M6Eg7C"
       ],
-      "disabled": true,
       "settings": {
         "title": "デフォルトタイトル"
-      }
-    },
-    "page_business_sec_title_EWzx7H": {
-      "type": "page-business-secTitle",
-      "settings": {
-        "sec-title": "お問合せ"
-      }
-    },
-    "page_business_text_gJz87K": {
-      "type": "page-business-text",
-      "settings": {
-        "text": "<p>・ビジネス会員についての<a href=\"\/pages\/contact\" title=\"お問い合わせ\">お問い合わせはこちら<\/a><\/p>"
       }
     }
   },
@@ -158,17 +89,6 @@
     "page_business_sec_title_rKPxBp",
     "page_business_text_cBUBEe",
     "page_business_image_GV6ghx",
-    "page_business_sec_title_yGetX8",
-    "page_business_text_QF4KeA",
-    "page_business_sec_title_EwCDW3",
-    "page_business_text_iegJnW",
-    "page_business_sec_title_hY8pa6",
-    "page_business_text_JMjpKt",
-    "page_business_sec_title_nnnHem",
-    "page_business_text_FrgWKP",
-    "page_business_image_tX4gFF",
-    "page_business_userguide_zhPGri",
-    "page_business_sec_title_EWzx7H",
-    "page_business_text_gJz87K"
+    "page_business_userguide_zhPGri"
   ]
 }
